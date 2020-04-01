@@ -10,6 +10,9 @@
     "title": {
       "type": "string"
     },
+    "createdAt": {
+      "type": "date"
+    },
     "data": {
       "type": "object"
     },

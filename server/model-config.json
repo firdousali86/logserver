@@ -36,7 +36,7 @@
     "public": false
   },
   "log": {
-    "dataSource": "db",
+    "dataSource": "mongoDBs",
     "public": true
   }
 }
