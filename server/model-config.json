@@ -37,7 +37,7 @@
   },
   "log": {
     "dataSource": "mongoDBs",
-    "public": true
+    "public": false
   },
   "project": {
     "dataSource": "mongoDBs",
