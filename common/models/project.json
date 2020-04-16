@@ -1,0 +1,28 @@
+{
+  "name": "project",
+  "plural": "projects",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "team": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "logs": {
+      "type": "hasMany",
+      "model": "log",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
