@@ -4,7 +4,7 @@ module.exports = function(Project) {
     Project.beforeRemote('prototype.__create__logs', function(ctx, modelInstance, next) {
 
         if(ctx && ctx.args && ctx.args.data){
-          ctx.args.data.createdAt = Date.now();
+          ctx.args.data.postedAt = Date.now();
         }
         
         next();

@@ -13,6 +13,9 @@
     "createdAt": {
       "type": "date"
     },
+    "postedAt": {
+      "type": "date"
+    },
     "data": {
       "type": "object"
     },
