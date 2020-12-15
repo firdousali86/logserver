@@ -36,11 +36,11 @@
     "public": false
   },
   "log": {
-    "dataSource": "mongoDBs",
-    "public": false
+    "dataSource": "db",
+    "public": true
   },
   "project": {
-    "dataSource": "mongoDBs",
+    "dataSource": "db",
     "public": true
   }
 }
