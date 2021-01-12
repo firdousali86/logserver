@@ -14,33 +14,33 @@
     ]
   },
   "User": {
-    "dataSource": "db"
+    "dataSource": "mongoDBs"
   },
   "AccessToken": {
-    "dataSource": "db",
+    "dataSource": "mongoDBs",
     "public": false
   },
   "ACL": {
-    "dataSource": "db",
+    "dataSource": "mongoDBs",
     "public": false
   },
   "RoleMapping": {
-    "dataSource": "db",
+    "dataSource": "mongoDBs",
     "public": false,
     "options": {
       "strictObjectIDCoercion": true
     }
   },
   "Role": {
-    "dataSource": "db",
+    "dataSource": "mongoDBs",
     "public": false
   },
   "log": {
-    "dataSource": "db",
+    "dataSource": "mongoDBs",
     "public": true
   },
   "project": {
-    "dataSource": "db",
+    "dataSource": "mongoDBs",
     "public": true
   }
 }
