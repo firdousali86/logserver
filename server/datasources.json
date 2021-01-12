@@ -4,12 +4,9 @@
     "connector": "memory"
   },
   "mongoDBs": {
-    "port": 21730,
-    "url": "mongodb://logdbadmin:abcd1234@ds121730.mlab.com:21730/logdb",
-    "database": "logdb",
+    "url": "mongodb+srv://user:qazwsx123@cluster0.hkq0x.mongodb.net/logserver?retryWrites=true&w=majority",
     "name": "mongoDBs",
     "connector": "mongodb",
-    "hostname": "ds121730.mlab.com",
     "allowExtendedOperators": true
   }
 }
