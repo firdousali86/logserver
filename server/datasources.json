@@ -4,7 +4,7 @@
     "connector": "memory"
   },
   "mongoDBs": {
-    "url": "mongodb+srv://user:qazwsx123@cluster0.hkq0x.mongodb.net/logserver?retryWrites=true&w=majority",
+    "url": "mongodb+srv://user:qazwsx123@cluster0.jls26.mongodb.net/test?retryWrites=true&w=majority",
     "name": "mongoDBs",
     "connector": "mongodb",
     "allowExtendedOperators": true
