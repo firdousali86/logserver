@@ -42,5 +42,9 @@
   "project": {
     "dataSource": "mongoDBs",
     "public": true
+  },
+  "car": {
+    "dataSource": "mongoDBs",
+    "public": true
   }
 }
